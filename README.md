@@ -191,7 +191,7 @@ Building web applications from front to back — HTML, CSS, JavaScript, React, P
 </div>
 <h3>Activity Graph</h3>
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fraze7&bg_color=0d1117&color=9be9a8&line=3fb950&point=2ea043&area=true&area_color=3fb950&hide_border=true" alt="GitHub activity graph"/>
+  <img width="100%" src="assets/activity-graph.svg" alt="GitHub activity graph"/>
 </div>
 <h3>Visitor Count</h3>
 <div align="center">
