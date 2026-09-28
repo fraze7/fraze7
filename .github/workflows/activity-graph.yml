@@ -1,0 +1,32 @@
+name: Update activity graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at midnight UTC
+  workflow_dispatch: # allows running it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - scripts/activity-graph.mjs
+      - .github/workflows/activity-graph.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/activity-graph.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit graph if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-graph.svg
+          git diff --cached --quiet || (git commit -m "Update activity graph" && git push)
