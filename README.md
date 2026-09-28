@@ -40,7 +40,7 @@ Building web applications from front to back — HTML, CSS, JavaScript, React, P
     </td>
     <td width="35%" align="center">
       <!-- Replace with your profile picture URL (e.g. from LinkedIn) -->
-      <img src="https://images.weserv.nl/?url=github.com/fraze7.png&mask=circle&w=15" alt="Profile photo" width="200" style="border-radius: 50%;"/>
+      <img src="https://images.weserv.nl/?url=github.com/fraze7.png?size=460&mask=circle&w=460" alt="Profile photo" width="200" style="border-radius: 50%;"/>
     </td>
   </tr>
 </table>
