@@ -119,43 +119,34 @@ Building web applications from front to back — HTML, CSS, JavaScript, React, P
 <h2>Featured Projects</h2>
 <table>
   <tr>
-    <td width="50%">
-      <h3>Portfolio Website</h3>
+    <td colspan="2">
+      <h3>Clutch Gear — Full-Stack E-Commerce Store</h3>
       <p>
-      A responsive personal portfolio website showcasing skills, projects, and experience — built at Level 2 of the diploma using HTML, Tailwind CSS, SASS, and JavaScript.
+      An online store for a made-up gaming gear brand, with a product catalogue, a shopping cart and working Stripe checkout (test mode) backed by a Postgres database. Tested with Vitest and checked by GitHub Actions CI on every change. <i>In progress.</i>
       </p>
-      <b>Stack:</b> HTML · Tailwind CSS · SASS · JavaScript
+      <b>Stack:</b> Next.js · TypeScript · Tailwind CSS · PostgreSQL · Prisma · Stripe · Vitest · GitHub Actions · Vercel
       <br/>
-      <a href="#">View Project →</a>
-    </td>
-    <td width="50%">
-      <h3>React.js Web Application</h3>
-      <p>
-      An interactive web app built with React.js, demonstrating component architecture, state management, and dynamic rendering.
-      </p>
-      <b>Stack:</b> HTML · Tailwind CSS · JavaScript · React.js
-      <br/>
-      <a href="#">View Project →</a>
+      <a href="https://clutch-gear.vercel.app">Live Site →</a> &nbsp;·&nbsp; <a href="https://github.com/fraze7/clutch-gear">Source Code →</a>
     </td>
   </tr>
   <tr>
-    <td>
-      <h3>JavaScript Browser Game</h3>
+    <td width="50%">
+      <h3>CS2 Skin Browser</h3>
       <p>
-      A 2D browser game using the Canvas API — featuring character control, animation, collision detection, sound, and interactive objects.
+      A React app for browsing live CS2 skin listings from the CSFloat marketplace, built around custom hooks and live API data.
       </p>
-      <b>Stack:</b> HTML · JavaScript · Canvas API
+      <b>Stack:</b> React · JavaScript · CSS · Vite · Vercel Serverless Functions
       <br/>
-      <a href="#">Play Game →</a>
+      <a href="https://cs2-skin-browser.vercel.app">Live Site →</a> &nbsp;·&nbsp; <a href="https://github.com/fraze7/cs2-skin-browser">Source Code →</a>
     </td>
-    <td>
-      <h3>Python & SQL Data App</h3>
+    <td width="50%">
+      <h3>Money Builder</h3>
       <p>
-      A data-driven back-end application using Python and SQL — structured queries, database management, and meaningful output.
+      A compound interest calculator: enter your investment details and see your projected returns year by year.
       </p>
-      <b>Stack:</b> Python · SQL · GitHub
+      <b>Stack:</b> React · JavaScript · Vite
       <br/>
-      <a href="#">View Project →</a>
+      <a href="https://moneybuilderapp.vercel.app">Live Site →</a> &nbsp;·&nbsp; <a href="https://github.com/fraze7/moneybuilderapp">Source Code →</a>
     </td>
   </tr>
 </table>
